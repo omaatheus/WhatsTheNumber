@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de adivinhação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Prompt:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="screen1">
+            <h1>JOGO DE ADIVINHAÇÃO</h1>
+            <p>Estou pensando em um número entre 1 e 10. Tente adivinhar!</p>
+
+            <form>
+                <input id="inputNumber" type="number">
+                <button  id="btnTry">Tentar</button>
+            </form>
+        </div>
+
+        <div class="screen2 hide">
+            <h1>PARABÉNS!</h1>
+            <h2></h2>
+            <button id="btnReset" >Recomeçar</button>
+        </div>
+
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
